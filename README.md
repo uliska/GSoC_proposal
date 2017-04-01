@@ -28,7 +28,8 @@ Git command module. A module providing the git command interface for other modul
 
 Working view, Index view and HEAD view
 - three views of current file and corresponding music views.
-- optional: HEAD view and Index view will be shown from new created temp files. A caching system to cache LilyPond files and pdfs is considered.
+- optional: HEAD view and Index view will be shown from new created temp files. A caching system to cache LilyPond files and pdfs is considered.  
+*(Comment (UL): I've had your demo running in my Frescobaldi since you made it available, and I see two problems: the cached files show up as "modified files" for Git, and they don't notice external changes. For example, if I change a branch externally or commit externally, they are not updated. This doesn't have to be considered in the proposal, but I wanted to point this out now instaed of later.)*
 
 Git info
 - display current file's git status: *untracked*, *unmodified*, *modified*, *staged*, *staged modified*
@@ -45,7 +46,8 @@ Git diff inline
 Git diff inline editor (Working view)
 - users can partially (in line or hunk) stage changes in Working view
 - users can partially (in line or hunk) discard changes in Working view
-- "Ctrl + z" undo operation support
+- "Ctrl + z" undo operation support  
+  *(Question: what do you mean with "undo" operation? If I'm not mistaken you haven't explained that yet in the email discussions)*
 
 Git diff inline editor (Index view)
 - users can partially (in line or hunk) unstage changes in Working view
